@@ -1,5 +1,9 @@
-function App() {
-  return <h1>Hello World !</h1>;
-}
+const App = () => {
+  return (
+    <h1 className="text-xl font-bold text-center text-cyan-800">
+      Hello world !
+    </h1>
+  );
+};
 
 export default App;
